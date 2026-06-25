@@ -1,6 +1,7 @@
 import { spawnSync } from "node:child_process";
 import { readFileSync } from "node:fs";
 import path from "node:path";
+import process from "node:process";
 import { fileURLToPath } from "node:url";
 
 if (process.env.SKIP_R2_BUCKET_CHECK === "1") {
@@ -29,14 +30,24 @@ if (buckets.length === 0) {
   process.exit(0);
 }
 
-const result = spawnSync(
-  "pnpm",
-  ["exec", "wrangler", "r2", "bucket", "list", "--config", "wrangler.jsonc"],
-  {
-    cwd: webDir,
-    encoding: "utf8",
-  },
-);
+const result =
+  process.platform === "win32"
+    ? spawnSync(
+        "cmd.exe",
+        ["/c", "pnpm", "exec", "wrangler", "r2", "bucket", "list", "--config", "wrangler.jsonc"],
+        {
+          cwd: webDir,
+          encoding: "utf8",
+        },
+      )
+    : spawnSync(
+        "pnpm",
+        ["exec", "wrangler", "r2", "bucket", "list", "--config", "wrangler.jsonc"],
+        {
+          cwd: webDir,
+          encoding: "utf8",
+        },
+      );
 
 if (result.error || result.status !== 0) {
   const details = [result.error?.message, result.stdout, result.stderr].filter(Boolean).join("\n");

@@ -11,8 +11,8 @@
     "crons": ["0 9 * * *"],
   },
   "vars": {
-    "VITE_BASE_URL": "https://guqiya-blog.workers.dev",
-    "CMS_PUBLIC_SITE_URL": "https://guqiya-blog.workers.dev",
+    "VITE_BASE_URL": "https://guqiya-blog.guqi767.workers.dev",
+    "CMS_PUBLIC_SITE_URL": "https://guqiya-blog.guqi767.workers.dev",
     "CMS_BACKUP_RETENTION_DAYS": "30",
     "CMS_EMAIL_SENDING_ENABLED": "false",
     "CMS_EMAIL_FROM": "",
@@ -24,7 +24,7 @@
     {
       "binding": "CMS_DB",
       "database_name": "guqiya-blog-cms",
-      "database_id": "00000000-0000-0000-0000-000000000000",
+      "database_id": "9ab3c7b4-6be7-420d-9f6d-6585b8f2a839",
       "migrations_dir": "../../packages/db/migrations",
     },
   ],
@@ -37,7 +37,7 @@
   "kv_namespaces": [
     {
       "binding": "CMS_CACHE",
-      "id": "00000000000000000000000000000000",
+      "id": "145135bc609b4abcb82daa2ea73f0c1f",
     },
   ],
 }

@@ -1,0 +1,27 @@
+{
+  "name": "Guqiya Blog",
+  "url": "https://guqiya-blog.guqi767.workers.dev",
+  "description": "记录一下生活,喜欢折腾,想做些有用的项目",
+  "authorName": "Guqiya",
+  "authorBio": "记录生活、折腾过程，以及那些希望真正有用的小项目。",
+  "themePreset": "maker",
+  "layoutPreset": "shelf",
+  "primaryLanguage": "zh",
+  "commentsEnabled": true,
+  "commentsRequireApproval": true,
+  "commentAutoBlockEnabled": true,
+  "emailVerificationEnabled": false,
+  "emailNotificationsEnabled": false,
+  "manualEmailBroadcastsEnabled": false,
+  "i18n": {
+    "name": {
+      "zh": "Guqiya Blog"
+    },
+    "description": {
+      "zh": "记录一下生活,喜欢折腾,想做些有用的项目"
+    },
+    "authorBio": {
+      "zh": "记录生活、折腾过程，以及那些希望真正有用的小项目。"
+    }
+  }
+}

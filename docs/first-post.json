@@ -1,0 +1,25 @@
+{
+  "title": "Hello from Guqiya Blog",
+  "slug": "hello-from-guqiya-blog",
+  "excerpt": "The first post on Guqiya Blog introduces life notes, tinkering, and useful side projects.",
+  "contentMarkdown": "# Hello from Guqiya Blog\n\nThis is the first published post on Guqiya Blog. It will be a place to record life, experiments, and useful projects.\n",
+  "status": "published",
+  "locale": "zh",
+  "i18n": {
+    "title": {
+      "zh": "来自 Guqiya Blog 的第一篇文章"
+    },
+    "excerpt": {
+      "zh": "这篇文章用来确认博客的第一篇双语发布内容已经上线。"
+    },
+    "contentMarkdown": {
+      "zh": "# 来自 Guqiya Blog 的第一篇文章\n\n这里会记录生活、折腾过程，以及那些希望真正有用的小项目。\n"
+    },
+    "seoTitle": {
+      "zh": "Guqiya Blog 第一篇文章"
+    },
+    "seoDescription": {
+      "zh": "确认 Guqiya Blog 的双语内容发布流程正常。"
+    }
+  }
+}
