@@ -1,11 +1,16 @@
-# 01mvp-blog-starter
+# Guqiya Blog
 
 [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/01MVP/blog-starter)
 [![Cloudflare deploy](https://github.com/01MVP/blog-starter/actions/workflows/cloudflare-deploy.yml/badge.svg)](https://github.com/01MVP/blog-starter/actions/workflows/cloudflare-deploy.yml)
 
 [中文 README](./README.zh-CN.md)
 
-01mvp-blog-starter is a Cloudflare-native personal publishing system with a Git-managed documentation system.
+Guqiya Blog is a Cloudflare-native personal publishing system with a Git-managed documentation system.
+
+- Project name: `guqiya-blog`
+- Public site name: `Guqiya Blog`
+- Primary launch target: Cloudflare `*.workers.dev`
+- Author: `Guqiya <guqiovo@outlook.com>`
 
 It ships with two content surfaces:
 
