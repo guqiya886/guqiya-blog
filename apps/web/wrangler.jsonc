@@ -2,6 +2,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "guqiya-blog",
   "main": "./src/server.ts",
+  "workers_dev": true,
   "compatibility_date": "2026-06-25",
   "compatibility_flags": ["nodejs_compat"],
   "observability": {
